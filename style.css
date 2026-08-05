@@ -1,3 +1,6 @@
+html {
+  line-height: 1;
+}
 body {
   font-family: Arial, "Helvetica Neue",
     "Hiragino Kaku Gothic ProN",
@@ -28,3 +31,13 @@ header {
   font-size: 20px;
   font-weight: bold;
  }
+.header-menu ul {
+  display: flex;
+}
+.header-menu-list {
+  margin-right: 20px;
+}
+.header-menu-list a {
+  color: #fff;
+  font-size: 20px;
+}
