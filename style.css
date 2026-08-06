@@ -23,21 +23,25 @@ header {
   margin-right: auto;
   padding: 0 20px;
   display: flex;
+  
   justify-content: space-between;
   align-items: center;
 }
 .header-logo a {
   color: #fff;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: bold;
  }
-.header-menu ul {
+ .header-menu ul {
   display: flex;
-}
+ }
 .header-menu-list {
   margin-right: 20px;
-}
+ }
+.header-menu-list:nth-last-child(1) {
+  margin-right: 0;
+ }
 .header-menu-list a {
   color: #fff;
   font-size: 20px;
-}
+ }
