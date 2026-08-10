@@ -45,3 +45,10 @@ header {
   color: #fff;
   font-size: 20px;
  }
+ .fv {
+  height: 603px;
+  background-image: url(/img/fv\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+ }
+ 
