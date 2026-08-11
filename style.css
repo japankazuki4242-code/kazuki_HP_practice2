@@ -97,3 +97,44 @@ margin-bottom: 30px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   background-color: #EFA358;
 }
+footer {
+  background-color: #EFA358;
+  padding: 22px 0 19px;
+  text-align: center;
+}
+.footer-logo {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+.copyright {
+  font-size: 12px;
+  color: #fff;
+}
+@media screen and (max-width: 871px) {
+  .feature-box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .img-area figure {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .text-area {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 520px) {
+  .fv {
+    height: 380px;
+  }
+  .img-area figure {
+    width: 100%;
+    height: auto;
+  }
+  .header-menu-list a {
+    font-size: 16px;
+  }
+}
